@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.Cards {
+  display: flex;
+  /* Permite que quebre a linha dentro de um flex conteiner; */
+  flex-wrap: wrap;
+}

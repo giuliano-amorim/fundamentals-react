@@ -1,0 +1,26 @@
+.Card {
+  /* Faz com que o componente cresça */
+  flex: 1; 
+  border: 3px solid #000000;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+  background-color: whitesmoke;
+
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.Card .Content {
+  flex: 1;
+  color: rgb(10, 7, 3);
+  padding: 15px 0px;
+}
+
+.Card .Footer {
+  background-color: #000000;
+  padding: 5px 0px;
+  color: wheat;
+}
+
