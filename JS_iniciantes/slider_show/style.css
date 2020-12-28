@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  height: 50px;
+
+}
+
+.slider {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider--width {
+  height: 100%;
+  display: flex;
+  transition: all ease 0.3s;
+
+}
+
+.slider--item {
+  width: 100vw;
+  height: inherit;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider--controls {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+
+.slider--control {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: white;
+  line-height: 1.75rem;
+  text-align: center;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
